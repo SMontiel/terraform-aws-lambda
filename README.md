@@ -1,4 +1,5 @@
 # AWS Lambda Terraform module
+> This is a fork of [terraform-aws-modules/lambda/aws:2.36.0](https://registry.terraform.io/modules/terraform-aws-modules/lambda/aws/2.36.0), with a modification to ignore changes in the `image_uri` argument for the Lambda created with this module.
 
 Terraform module, which creates almost all supported AWS Lambda resources as well as taking care of building and packaging of required Lambda dependencies for functions and layers.
 
